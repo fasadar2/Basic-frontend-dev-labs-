@@ -120,30 +120,57 @@ div.flex3 {
     display: flex;
     flex-direction: column;
 }
-.h1 { margin-bottom: 8px; Height:59px; width: 115px; }
-.h2 { margin-left: 408px }
-.h3 { Height:20px; width: 20px; margin-left: 513px; margin-bottom: 29px; }
-.h4 { Height:42px; width: 42px; margin: 0 0px 19px 31px; }
-.m1 { position:absolute; left: 0px;}
-.m2 { margin-left: 35px;}
-.m3 { position: absolute; left: 803px;}
-.m4 { position: absolute; right: 0px;}
-.m5 { position: absolute; left: 0px}
-.m6 { background-color: #07131B;}
-.m7 { float: right; margin: 14px 0 0 0;}
-.m8 { margin: 156px 0 0 14px;}
-.m9 { float: right;}
-.m10 { position: absolute; right: 0px;}
-.m11 { width: 138px; height: 101px;}
-.m12 { width: 138px; height: 101px; margin-top: 20px;}
-.m13 { width: 406px; height: 101px;}
-.m14 { width: 406px; height: 101px;  margin-top: 20px;}
-.m15 { width: 42px; height: 56px;}
-.m16 { width: 42px; height: 56px; margin-top: 2px;}
-.m17 { position: relative; top: -37px}
-.m18 { width: 42px; height: 56px;}
-.m19 { width: 42px; height: 56px; margin-top: 2px;}
-.m20 { width: 80px; height: 112px;}
-.m21 { width: 124px; height: 38px;}
-.m22 { margin-left: 9px;}
-.m23 { margin: 60px 0 0 40px; width: 100px; height: 20px;}
+.h1
+ { margin-bottom: 8px; Height:59px; width: 115px; }
+.h2 
+{ margin-left: 408px }
+.h3
+ { Height:20px; width: 20px; margin-left: 513px; margin-bottom: 29px; }
+.h4
+ { Height:42px; width: 42px; margin: 0 0px 19px 31px; }
+.m1
+ { position:absolute; left: 0px;}
+.m2 
+{ margin-left: 35px;}
+.m3
+ { position: absolute; left: 803px;}
+.m4
+ { position: absolute; right: 0px;}
+.m5
+ { position: absolute; left: 0px}
+.m6
+ { background-color: #07131B;}
+.m7
+ { float: right; margin: 14px 0 0 0;}
+.m8
+ { margin: 156px 0 0 14px;}
+.m9 
+{ float: right;}
+.m10 
+{ position: absolute; right: 0px;}
+.m11
+ { width: 138px; height: 101px;}
+.m12
+ { width: 138px; height: 101px; margin-top: 20px;}
+.m13
+ { width: 406px; height: 101px;}
+.m14
+ { width: 406px; height: 101px;  margin-top: 20px;}
+.m15
+ { width: 42px; height: 56px;}
+.m16
+ { width: 42px; height: 56px; margin-top: 2px;}
+.m17
+ { position: relative; top: -37px}
+.m18
+ { width: 42px; height: 56px;}
+.m19
+ { width: 42px; height: 56px; margin-top: 2px;}
+.m20
+ { width: 80px; height: 112px;}
+.m21
+ { width: 124px; height: 38px;}
+.m22
+ { margin-left: 9px;}
+.m23
+ { margin: 60px 0 0 40px; width: 100px; height: 20px;}
