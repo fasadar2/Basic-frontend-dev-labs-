@@ -1,13 +1,97 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style_config.css">
-    <title>Document</title>
-</head>
-<body>
+<p align = center>МИНИСТЕРСТВО НАУКИ И ВЫСШЕГО ОБРАЗОВАНИЯ
+
+<p align = center>РОССИЙСКОЙ ФЕДЕРАЦИИ
+
+<p align = center>ФЕДЕРАЛЬНОЕ ГОСУДАРСТВЕННОЕ БЮДЖЕТНОЕ ОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ ВЫСШЕГО ОБРАЗОВАНИЯ
+
+<p align = center>«ВЯТСКИЙ ГОСУДАРСТВЕННЫЙ УНИВЕРСИТЕТ»
+
+<p align = center>Институт математики и информационных систем
+
+<p align = center>Факультет автоматики и вычислительной техники
+
+<p align = center>Кафедра систем автоматизации управления
+
+<p align = right>Дата сдачи на проверку:
+
+<p align = right>«___» __________ 2021 г.
+
+<p align = right>Проверено:
+
+<p align = right>«___» __________ 2021 г.
+
+<p align = center>Стилизация и трансформация элементов через CSS
+
+<p align = center>Отчет по лабораторной работе № 3
+
+<p align = center>по дисциплине
+
+<p align = center>«Основы frontend-разработки и организации человеко-машинного интерфейса»
+
+<p align = center>Разработал студент гр. ИТб-1301-01-00 ________________ /Орлов М.А/
+
+<p align = center>Проверил ст. преподаватель _________________ /Земцов М.А./
+
+<p align = center>Работа защищена с оценкой	«___________» «___» __________ 2021 г.
+
+<p align = center>Киров 2021
+
+Цель лабораторной работы: Стилизация и трансформация элементов через CSS. CSS процессоры.
+
+Задачи:
+
+1. Организовать процесс работы над лабораторной работой
+2. Изучить материал по основам стилизации элементов
+3. Выполнить верстку макета по заданию преподавателя
+4. Составить отчет по выполненным задачам
+5. Защитить лабораторную работу
+
+Ход выполнения:
+
+1. Организовать процесс работы над лабораторной работой
+
+В ходе организации рабочего пространства в репозитории “Basic frontend dev labs” создана ветвь “lab3”.
+
+2. Изучить материал по основам стилизации элементов
+
+Перед выполнением работы был изучен материал по основам работы c оформлением веб-документа [1, приложение Б].
+
+3. Выполнить верстку веб-страницы [2, приложение Б]\*
+
+Макет веб-страницы представлен на рисунке 1.
+
+<p align=center><img src=./img/tzMaket.png></p>
+
+<p align=center>Рисунок 1 - Макет веб-страницы</p>
+
+Выполненное задание представлено на рисунке 2. Листинг html страницы представлен в приложении А.
+
+<p align=center><img src=./img/finishedMaket.png></p>
+
+<p align=center>Рисунок 2 - Выполненная верстка</p>
+
+4. Составить отчет по выполненным задачам
+
+При составлении отчета были закреплены навыки по markdown разметке [3, приложение Б] и общие требования к оформлению текстовых документов [4, приложение Б].
+
+Вывод: в ходе работы была изучена документация по cтилизации и трансформации элементов с помощью CSS. Полный список изученной документации приведен в приложении Б. Получен опыт в применении CSS-стилей.
+
+<p align = center>Приложение А
+
+<p align = center>(обязательное)
+
+<p align = center>Листинг html-страницы
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <title>Document</title>
+    </head>
+    <body>
     <div class="bg_white">
         <header>
             <img src="./img/Logo.svg" alt="logo" class="logo">
@@ -46,7 +130,7 @@
             </section>
             <section class="block2">
                 <p class="Orange_line"></p>
-                <section class="JasonBourne">    
+                <section class="JasonBourne">
                     <img src="./img/Bourne.svg" alt="Bourne" class="Bourne">
                     <img src="./img/Shape5.1.svg" alt="Shape5" class="Shape5">
                     <ul class="Bourne_img">
@@ -66,13 +150,13 @@
                     <p class="Play_gr"></p>
                     <img src="img/Next.svg" alt="Next" class="Button_play">
                     <img src="./img/Play.svg" alt="Oval2" class="Oval2">
-                </div> 
+                </div>
                     <div class="paginations">
                         <img src="./img/Dot1.svg" class="dot1" alt="Dot">
                         <img src="./img/Dot1.svg" class="dot2" alt="Dot">
                         <img src="./img/Dot2.svg" class="dot3" alt="Dot">
                         <img src="./img/Dot1.svg" class="dot4" alt="Dot">
-                        <img src="./img/Dot3.svg" class="dot5" alt="Dot"> 
+                        <img src="./img/Dot3.svg" class="dot5" alt="Dot">
                         <img src="./img/Dot1.svg" class="dot6" alt="Dot">
                         <img src="./img/Dot1.svg" class="dot7" alt="Dot">
                     </div>
@@ -83,7 +167,7 @@
                         <li><img src="./img/News1.svg" alt="img"></li>
                         <li><img src="./img/News2.svg" alt="img"></li>
                         <li><img src="./img/News3.svg" alt="img"></li>
-                    </ul>  
+                    </ul>
                 </div>
                 <div class="Born_Today">
                     <ul class="img_BT">
@@ -125,7 +209,7 @@
                         <li><img src="./img/box4.svg" alt="box"></li>
                         <li><img src="./img/box5.svg" alt="box"></li>
                         <li><img src="./img/box6.svg" alt="box"></li>
-                    </ul> 
+                    </ul>
                 </div>
                 <div class="Recently_ciewed">
                     <ul class="img_Recently_ciewed">
@@ -145,12 +229,12 @@
                         <li><img src="./img/recently14.svg" alt="recently"></li>
                         <li><img src="./img/recently15.svg" alt="recently"></li>
                         <li><img src="./img/recently15.1.svg" alt="play"></li>
-                    </ul>  
+                    </ul>
                     <div class="fifty">
                         <p class="buttonplay"></p>
                         <img src="./img/play1.svg" class="play1" alt="play">
-                    </div>  
-                </div> 
+                    </div>
+                </div>
                 <p class="line2">
             </div>
         </main>
@@ -170,7 +254,7 @@
                 <li><img src="./img/Yputube.svg"  alt="Yputube"></li>
                 <li><img src="./img/G+.svg"  alt="G+"></li>
                 <li><img src="./img/Twitter.svg"  alt="Twitter"></li>
-            </ul>   
+            </ul>
        </div>
        <div class="Flickr">
             <ul class="Photos">
@@ -187,5 +271,17 @@
        </div>
     </footer>
     </div>
+
 </body>
 </html>
+
+<p align = center>Приложение Б
+
+<p align = center>(справочное)
+
+<p align = center>Библиографический список
+
+1. Основы CSS [Электронный ресурс] / Елена Назарова, 2014-2021 HTML5BOOK.RU // Опубликовано: 2 января 2015 Обновлено: 22 декабря 2020. URL:<https://html5book.ru/osnovy-css/>.(Дата обращения: 19.03.2021).
+2. IMDb concept [Электронный ресурс] / Figma. URL:<https://www.figma.com/file/j4dslZZvb5b9JLSEYQYKMo/imdb_concept?node-id=0%3A4>.(Дата обращения: 20.03.2021).
+3. Руководство по оформлению Markdown файлов [Электронный ресурс] / Artem Zhekov 2015// 2021 GitHub, Inc. URL:<https://gist.github.com/Jekins/2bf2d0638163f1294637>.(Дата обращения: 20.03.2021).
+4. Общие требования к оформлению текстовых документов [Электронный ресурс] / секция курсового и дипломного проектирования методического совета Вятского государственного университета Киров 2004//СТП ВятГУ 101-2004. URL:<https://www.vyatsu.ru/uploads/file/1604/101_2004.pdf>.(Дата обращения: 20.03.2021).
