@@ -4,15 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <script src="script.js"></script>
+    <link href="style.css" rel="stylesheet">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
-
+    <script src="script.js"></script>
     <title>Document</title>
+
 </head>
 <body>
-
+    <div class="preloader">
+        <div class="preloader__row">
+            <p class="text-4xl text-center">Загрузка страницы …</p>
+          <div class="preloader__item"></div>
+          <div class="preloader__item"></div>
+        </div>
+      </div>
     <header class=" flex justify-between px-36 mx-auto container  ">
         <img src="./img/LOGO.svg" class="mt-4" alt="">
         <nav class="flex justify-between ">
@@ -25,53 +32,324 @@
             </button>
         </nav>
     </header>
-
-        </nav>
-
-    </header>
-<main>
-    <section class="flex justify-beetwen container mx-auto py-2 px-16">
-      
-
-        <div class="py-64">
-            <p class="text-2xl ">Need a flexible recruiting solution<br>
-                as you sell and scale projects?</p>
-            <p class="py-2">We are here to solve this exact challenge</p>
-            <button onclick="button()" class="content-center my-5  px-10 text-white  py-2 rounded-3xl border-2 bg-purple-400 focus:outline-none">
-                <span class=>Get Started</span>
-            </button>
-
-        </div>
-
-        <div class="-mr-96 px-64 ">
-            <img src="img/Image.svg">
-        </div>
-
-    </section>
-<img src="img/Achievements.svg">
-
-<section>
-    <div class="text-center py-10">
-        <p class="text-4xl">Our Services</p>
-        <p class="py-4">Early stage company? Eligible applicants get all of our products for just $49 a month.</p>
-    </div>
-
-    <div class="flex justify-beetwen px-20 container">
-
-        <div>
-            <img src="img/Image (1).svg">
-
-        </div>
-
-        <div class="px-56">
-            <img src = "img/Image (2).svg">
-        </div>
-
-    </div>
-</section>
-
-</main>
-
     
+    <main>
+        <section>
+            <div class="container mx-auto">
+                <div class="flex justify-beetwen ">
+                    <div class="mt-60 pl-24">
+                        <p class="font-bold text-xl">
+                            Need a flexible recruiting solution<br>
+                            as you sell and scale projects?
+                        </p>
+                        <p class="pt-10  ">
+                        We are here to solve this exact challenge
+                        </p>
+                        <div class="pt-16 pb-16 ">
+                        <button onclick="button()" class=" content-center px-10 text-white py-2 rounded-3xl border-2 button focus:outline-none">
+                            <span>Read More</span>
+                        </button>
+                        </div>    
+                    </div>
+
+                        <img src="./img/Image.svg" class="pl-60 mt-4" alt="">
+
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <img src="./img/Achievements.svg" class="mx-auto container" alt="">
+        </section>
+
+        <section class="container mx-auto">
+
+            <div class=" text-center">
+                <p class="my-5 text-2xl">Our services</p>
+                <p>Early stage company? Eligible applicants get all of our products for just $49 a month.</p>
+            </div>
+            
+            <div class="flex px-36 pt-12 pb-16 justify-between">
+                <div class="border rounded-lg ">
+                    <div class="">
+                        <img src="./img/left.svg" alt="">
+                    </div>
+                    <div class="pl-8 pt-6">
+                        <p>
+                            Sourcing and engaging passive complex roles in tight labor<br>
+                            market, such as
+                        </p>
+                    </div>
+                    <div class="ml-12 pt-8">
+                        <div class="flex">
+                            <img src="./img/Oval.svg" alt="">
+                            <p class="pl-2"> Software Engineers </p>
+                        </div> 
+                        <div class="flex ">
+                            <img src="./img/Oval.svg" alt="">
+                            <p class="pl-2"> UX Designers </p>
+                        </div> 
+                        <div class="flex">
+                            <img src="./img/Oval.svg" alt="">
+                            <p class="pl-2"> Project Managers </p>
+                        </div> 
+                    </div>
+                    <div class="pt-16 pb-16 items-center flex flex-col">
+                        <button onclick="button()" class=" content-center px-10 text-white py-2 rounded-3xl border-2 button focus:outline-none">
+                            <span>Read More</span>
+                        </button>
+                    </div>    
+                </div>
+                <div class="border rounded">
+                    <div class="">
+                        <img src="./img/right.svg" alt="">
+                    </div>
+                    <div class="pl-8 pt-6">
+                        <p>
+                            Vetting through roles with a higher volume of<br>
+                             candidates and building a shortlist:
+                        </p>
+                    </div>
+                    <div class="ml-12 pt-8">
+                        <div class="flex">
+                            <img src="./img/Oval.svg" alt="">
+                            <p class="pl-2"> HR and Recruitment </p>
+                        </div> 
+                        <div class="flex">
+                            <img src="./img/Oval.svg" alt="">
+                            <p class="pl-2"> Marketing </p>
+                        </div> 
+                        <div class="flex">
+                            <img src="./img/Oval.svg" alt="">
+                            <p class="pl-2"> Inside and Outside Sales </p>
+                        </div> 
+                    </div>
+                    <div class="pt-16 pb-16 items-center flex flex-col">
+                        <button onclick="button()" class=" content-center px-10 text-white py-2 rounded-3xl border-2 button focus:outline-none">
+                            <span>Read More</span>
+                        </button>
+                    </div>    
+                </div>
+            </div>
+        </section>
+
+        
+        <section> <!-- Our process-->
+            <div class="mx-auto container">
+                <div class=" mx-36 pb-24">
+                <p class = "text-center text-4xl ">Our process</p>
+                <p class = "text-center pt-4 text-xl ">Typically, a customer starts with one recruiter as a test and ramps up as we prove success</p>
+                    <div class="items center pt-16 flex flex-col">
+                        <img src="./img/Process.svg" alt="">
+                    </div>
+                
+                </div>
+            </div>
+        </section>
+        <section><!-- Secret Sauce-->
+            <p class = "text-center text-4xl ">Our Secret Sauce</p>
+            <p class = "text-center pt-4 text-xl ">Typically, a customer starts with one recruiter as a test and ramps up as we prove success</p>
+            <div class="container mx-auto">
+                <div class="mt-20 mx-36 flex  justify-between">
+                    <div class="items-center flex flex-col">
+                        <img src="./img/Place.svg" alt="">
+                        <div>
+                        <p class="text-center text-xl">Staying Local</p>
+                        <p class=" mt-10 text-center ">
+                            Offshoring can be harmful to your brand image,<br>
+                            which is why we belive in onshoring and<br>
+                            nearshoring. Our recruiters are entirely located<br>
+                            across the America, which also means the same<br>
+                            timezone and workday
+                        </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="items-center flex flex-col">
+                            <img src="./img/reputation.svg" alt="">
+                                <div>
+                                <p class="text-center text-xl">Protect your Brand Image</p>
+                                <p class="mt-10 text-center">
+                                    Use recruiters who speak and write fluent<br>
+                                    English, can build relationships with top talent,<br>
+                                    and are capable of creative sourcing for complex<br>
+                                    roles  
+                                </p>
+                                </div>
+                        </div>
+                                <div class="ml-64">
+                                    <img src="./img/Pointer.svg" alt="">
+                                </div>
+                    </div>
+                        <div class="items-center flex flex-col">
+                            <img src="./img/famous.svg"  alt="">
+                            <div>
+                            <p class="text-center text-xl">No Substitute</p>
+                            <p class="mt-10 text-center ">
+                                Recruiting only requires a laptop and a phone, but<br>
+                                there is no substitute for good communication<br> 
+                                skills and grit. 
+                            </p>
+                            </div>
+                        </div>
+                </div>
+                <div class="pt-16 pb-16 items-center flex flex-col">
+                    <button onclick="button()" class=" content-center px-10 text-white py-2 rounded-3xl border-2 button focus:outline-none">
+                        <span>Contact Us</span>
+                    </button>
+                </div>    
+            </div>
+        </section>
+
+        <section> <!-- Founders message-->
+            <div class="flex zadnik px-32 py-28 mx-auto container justify-between">
+                <img src="./img/john_doe.svg" alt="">
+                <div>
+                <div>
+                    <p class="pt-8 text-4xl">Founder's Message</p>
+                    <p class="pt-16 text-xl">This is the recruitment company I wish existed when I was leading<br>
+                        talent for tech startups. Sourcing, engaging, and hiring top talent in<br>
+                        tight labor markets is not for the faint of heart.</p>
+                    </div>
+                    <div class="pt-20">
+                        <p>John Doe<br>
+                        Founder</p>  
+                        <p class="pt-6">Awarded Ere.net award for top<br>
+                            recruiting department in world
+                        </p>
+                    </div>   
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <img src="./img/Customers.svg" class="mx-auto container" alt="">
+        </section>
+
+        <section><!-- Our team -->
+            <div class="container mx-auto pb-20 oval">
+                <p class="text-4xl pt-4 text-center">Our Team</p>
+                <p class="text-xl pt-2   text-center">Do you require some help for your project: Conception workshop,<br>
+                    prototyping, marketing strategy, landing page, Ux/UI?</p>
+                <div class="px-64">
+                 <div class="flex justify-between pt-4">
+                    <img src="./img/priscilla.svg" alt="">   
+                    <div>
+                        <img src="./img/members.svg" class="pt-32" alt="">
+                    </div>
+                    <img src="./img/max.svg" alt="">
+                    </div>
+                    <div class="flex justify-between -mt-40">
+                        <img src="./img/tom.svg" alt="">
+                        <div><img src="./img/freddy.svg" class="pt-64" alt=""></div>
+                        <img src="./img/nina.svg"  alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section><!-- Our success stories -->
+            <div class="mx-auto container">
+                <p class="text-4xl pt-12 text-center">Our Success Stories</p>
+                <p class="text-xl pt-6 text-center">Typically, a customer starts with one recruiter as a test and ramps up as we prove success</p>
+                <div class="flex mx-16 pt-8 justify-between">
+                    <div>
+                        <div class="pt-40">
+                            <div class="flex">
+                                <img src="./img/Oval.svg" alt="">
+                                <p class="text-4xl pl-4">160%</p>
+                            </div>
+                            <p class="pl-8 pt-4 text-xl">Hired 14 engineering roles for a VC funded tech company in Q2 2019,<br>
+                                including a Lead Data Scientist, Director of Devops, and Python Engineers. </p>
+                        </div>
+                        <div class="pt-8">
+                            <div class="flex">
+                                <img src="./img/Oval.svg" alt="">
+                                <p class="text-4xl pl-4">200%</p>
+                            </div>
+                            <p class="pl-8 pt-4 text-xl">Hired 5 full stack engineers within 60 days for a hyper growth tech company.</p>
+                        </div>
+                        <div class="pt-8">
+                            <div class="flex">
+                                <img src="./img/Oval.svg" alt="">
+                                <p class="text-4xl pl-4">230%</p>
+                            </div>
+                            <p class="pl-8 pt-4 text-xl">We came in late on a complex diversity leadership search and hired<br>
+                                the winning candidate within 6 weeks</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="./img/progress.png" class="" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section><!-- talk to expert -->
+            <div class="mx-auto pb-16 bg-gray-100 container">
+                <p class="text-4xl pt-12 text-center">Talk to our expert</p>
+                <p class="text-xl pt-6 text-center">The best return on investment for your hiring dollars</p>
+                <div class="mx-16 flex justify-between pt-12">
+                    <div>
+                    <p class="text-xl">Our experts will examine your requirements and provide suggestions for how best to improve,<br>
+                        and which additional services you may benefit from. All of our experts are highly skilled and<br>
+                        are proud to offer their expertise alongside great customer support so you can always be sure<br>
+                        that you are getting the best advice.</p>
+                    <p class="text-xl pt-12">
+                        We take your privacy very seriously and will never share your personal details with<br>
+                        other organisations or individuals.
+                    </p>
+                        <div class="pt-32">
+                        <button onclick="button()" class=" content-center px-10 text-white py-2 rounded-3xl border-2 button focus:outline-none">
+                            <span>Contact Us</span>
+                        </button>
+                        </div>    
+                    </div>
+                    <div>
+                        <p>CONTACT US</p>
+                        <form>
+                            <div class=""><input autocomplete=on type="text" placeholder="Name*" class="py-3" size="60" id="name" required></div>
+                            <div class="pt-6"><input autocomplete=on type="email" placeholder="E-mail*" class="py-3" size="60" id="email" required></div>
+                            <div class="pt-6"><input autocomplete=on  type="text" placeholder="Company*" class="py-3" size="60" id="company" required></div>
+                            <div class="pt-6"><input autocomplete=on type="text" placeholder="Intersted Industry" class="py-3" size="60" id="industry" ></div>
+                            <div class="pt-6"><input autocomplete=on type="text" placeholder="Description*"  class="py-6" size="60" id="description" required></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container pt-16 button">
+            <div class="mx-64 flex justify-between text-white">
+                <div>
+                    <p class="text-xl">Company</p>
+                    <p class="pt-2">About us</p>
+                    <p class="pt-2">Services</p>
+                    <p class="pt-2">Projects</p>
+                    <p class="pt-2">Career</p>
+                    <p class="pt-2">Contact</p>
+                </div>
+                <div>
+                    <p class="text-xl">Quick Links</p>
+                    <p class="pt-2">Success Stories</p>
+                    <p class="pt-2">Achievements</p>
+                </div>
+                <div>
+                    <p class="text-xl">Follow Us</p>
+                    <img class="pt-4" src="./img/social.svg" alt="">
+                </div>
+            </div>
+            <p class="text-center py-6 text-gray-300">Copyright © 2020 Ami Moradia. - All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        window.onload = function () {
+          document.body.classList.add('loaded_hiding');
+          window.setTimeout(function () {
+            document.body.classList.add('loaded');
+            document.body.classList.remove('loaded_hiding');}, 543);
+        }
+      </script>
 </body>
 </html>
