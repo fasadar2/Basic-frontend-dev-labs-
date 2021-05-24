@@ -1,0 +1,18 @@
+bg-gradient-b
+{
+    background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
+
+flex-initial
+{
+    flex: 0 1 auto;
+}
+justify-between
+{
+    justify-content: space-between;
+}
+text-white
+{
+    --tw-text-opacity: 1;
+    color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
