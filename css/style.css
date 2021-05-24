@@ -1,18 +1,46 @@
-bg-gradient-b
+.bg
 {
-    background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+    background-color:rgb(185, 80, 115);
+}
+.bg-w
+{
+    background-color:rgb(255, 255, 255);
 }
 
-flex-initial
-{
-    flex: 0 1 auto;
-}
-justify-between
-{
-    justify-content: space-between;
-}
-text-white
+.text-white
 {
     --tw-text-opacity: 1;
     color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+.flex-between {
+
+    display: flex;
+    justify-content: space-between;
+    outline: 1px dashed rgb(185, 80, 115)
+   
+}
+.item-1 {
+    width: 250px;
+    height: 200px;
+    background: rgb(185, 80, 115);
+    border-radius: 10%;
+}
+.item-2 {
+    width: 250px;
+    height: 200px;
+    background: rgb(101, 78, 231);
+    border-radius: 10%;
+}
+.text-pink
+{
+    --tw-text-opacity: 1;
+    color: rgb(185, 80, 115, var(--tw-text-opacity));
+}
+.mr
+{
+    right:100px;
+}
+.ml
+{
+    right:-100px;
 }
