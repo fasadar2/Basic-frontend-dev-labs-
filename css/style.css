@@ -1,10 +1,18 @@
 .bg
 {
-    background-color:rgb(185, 80, 115);
+    background-image: linear-gradient(to bottom, rgb(230, 40, 112), #ebe0e0);
 }
 .bg-w
 {
     background-color:rgb(255, 255, 255);
+}
+.bg-h
+{   
+    
+    height: 150px;
+    background-repeat:repeat-x;
+    background-image:url("img/шапка.jpg")
+   
 }
 
 .text-white
@@ -28,7 +36,14 @@
 .item-2 {
     width: 250px;
     height: 200px;
-    background: rgb(101, 78, 231);
+    background-image: linear-gradient(to bottom, rgb(60, 20, 241), #2c0477a4);
+    border-radius: 10%;
+}
+.item-3
+{
+    width: 250px;
+    height: 200px;
+    background-image: linear-gradient(to right, rgb(60, 20, 241), rgb(230, 40, 112));
     border-radius: 10%;
 }
 .text-pink
