@@ -2,9 +2,18 @@
 {
     background-color:rgb(80, 79, 79);
 }
-.flex {
+.head {
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;
+    
 
+}
+.head_logo
+{
+   margin:1% 20%;
+}
+.head_logo2
+{
+   margin:-4% 60%;
 }
