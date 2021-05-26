@@ -10,7 +10,8 @@
 </head>
 
 <body class="main_bg" > 
-    
+    <div>
+
     <div class ="head">
         <div class="head_logo">
         <img src="resurces/img/img_header/logo.png"> 
@@ -51,10 +52,11 @@
         </div>
         <div class="item_2 head">
 
-            <div class="small_head">
+            <div class="small_head ">
+
                 <div class="zag"> <p class="left_rec"> Реклама </p></div>
                 <img class="left_rec_p" src="resurces/img/img_middle/reklama_leftpng.png">
-                <div class="zag ">
+                <div class="zag border ">
                      <p class="left_nav"> Навигация </p>
                      <div class="small_menu nav_b">
                         <a class="nav_bat_1" href="#">О сайте</a>
@@ -67,17 +69,33 @@
                         <a class="nav_bat_1" href="#">Инопресса</a>
                      </div>
                 </div>
-
-                     <div class="zag exsist"> <p class="left_form"> Форма входа </p></div>
+                
+                     <div class="zag exsist "> <p class="left_form"> Форма входа </p></div>
                      <div class="head">Email:
-                        <form class="form" action="signin" method="post">
-                       <input type="text" name="email" placeholder="">
+                        
+                       <input class="form" type="text" name="email" placeholder="">
                    </div>
                     <div class="head exsist">Пароль:
-                       <form class="form" action="signin" method="post">
-                       <input type="text" name="Password" placeholder="">
+                       
+                       <input class="form" type="text" name="Password" placeholder="">
                     </div>
+                    <div class="head">
+                        <p><input type="checkbox" name="a" value="2010"> Запомнить</p>
+                        <p class="button"><input type="submit" value="вход"></p>
+                    </div>
+                    <div class="text-lefter head text-small">
+                        <a >Забыли пароль </a>
+                        |
+                        <a>Регистрация</a>
+                    </div>
+                    <div class="zag "> <p class="left_search"> Поиск </p></div>
+                        <input class="form left_search_form " type="text" name="email" placeholder="">
+                        <p class="left_search_but"><input type="submit" value="поиск"></p>
+
+                    <div class="zag "> <p class="left_calendar_text"> Календарь </p></div>
+                    <img class="left_calendar"src="resurces/img/img_middle/calendar.png">
                 </div>
+                
 
             <div class="small_head">
 
@@ -91,6 +109,7 @@
     </div>
 
 
+</div>
 </body>
 
 </html>

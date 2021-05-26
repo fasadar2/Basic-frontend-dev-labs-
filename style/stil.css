@@ -114,9 +114,45 @@
 }
 .form
 {
-    width:10%;
+    width:50%;
 }
 .exsist
 {
     margin-top:4%;
+}
+.button
+{
+    margin-left: 20%;
+}
+.text-small
+{
+    font-size: smaller;
+}
+.text-lefter
+{
+    margin-left:10%;
+}
+.border
+{
+    border: 2px solid #ccc;
+}
+.left_search
+{
+    margin:1% 40%;
+}
+.left_search_form
+{
+    margin:1% 24%;
+}
+.left_search_but
+{
+    margin:2% 38%;
+}
+.left_calendar
+{
+    margin:0% 18%;
+}
+.left_calendar_text
+{
+    margin:1% 34%;
 }
