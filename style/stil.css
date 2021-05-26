@@ -6,6 +6,7 @@
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;
+    
 }
 .head_logo
 {
@@ -18,14 +19,14 @@
 .item_1
 {
     margin:2% 5%;
-    width:1000px;
+    width:1200px;
     background-color:rgb(49, 93, 236);
     border-radius: 2%;
 }
 .item_2
 {
     margin:2% 0%;
-    width:1000px;
+    width:1200px;
     background-color:rgb(255, 255, 255);
     border-radius: -10%;
 }
@@ -61,8 +62,9 @@
 .small_head
 {
     display: grid;
-    grid-row-gap: 0px;
+    grid-row-gap: 1px;
     align-content: stretch;
+    
 }
 .text-white
 {
@@ -76,6 +78,7 @@
     border-radius: 2%;
     --tw-text-opacity: 1;
     width:97%;
+    
     color: rgba(255, 255, 255, var(--tw-text-opacity));
 }
 .left_rec
@@ -155,4 +158,23 @@
 .left_calendar_text
 {
     margin:1% 34%;
+}
+.zag_middle
+{
+   
+        background-color: rgb(49, 93, 236);
+        margin:2% 0%;
+        border-radius: 2%;
+        --tw-text-opacity: 1;
+        width:100%;
+        height: 24px;
+        color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+.middle
+{
+    margin:0% 5%;
+}
+.middle_text
+{
+    margin: 0% ;
 }
