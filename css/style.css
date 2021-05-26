@@ -88,7 +88,7 @@
 }
 .head
 {
-    margin: 0px 25px;
+    margin: 0px 0.5%;
     width: 150px;
     height: 40px;
     background-image: linear-gradient(to bottom, rgb(230, 40, 112), #a8a4a4);
@@ -114,6 +114,7 @@
 .middle_3
 {
     margin-top:100px;
+    width:auto;
 }
 .flex
 {
@@ -130,5 +131,18 @@ border-radius: 5%;
 {
     margin:10px 15px;
     height:40px;
+
+}
+.left_block_1
+{
+    width:auto;
+    margin-left:10px;
+    height:auto;
+
+}
+.left_block_0
+{
+    margin-left:5px;
+
 
 }
