@@ -135,14 +135,25 @@ border-radius: 5%;
 }
 .left_block_1
 {
-    width:auto;
+
     margin-left:10px;
-    height:auto;
+
 
 }
 .left_block_0
 {
     margin-left:5px;
+    margin-top:10px ;
 
+
+}
+.kos
+{
+    background-color:rgba(255, 255, 255, 0);
+    height:50px;
+}
+.kos2
+{
+    background-color:rgba(255, 255, 255, 0);
 
 }
