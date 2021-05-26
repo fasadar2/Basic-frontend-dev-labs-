@@ -1,6 +1,7 @@
 .bg
 {
     background-image: linear-gradient(to bottom, rgb(230, 40, 112), #a8a4a4);
+
 }
 .bg-w
 {
@@ -13,13 +14,21 @@
     background-image: linear-gradient(to bottom, rgb(7, 0, 107), #000000);
     font-weight: bold;
     font-size: larger;
+    padding: 10px;
 
 }
-.kos
+.bg-main
 {
-    background-color:rgb(255, 255, 255);
-    height:600;
-    width:40;
+    background-image: linear-gradient(to bottom, rgb(255, 0, 98), #ffffff);
+}
+.header_1
+{
+    margin-left: 45px;
+}
+.header_down
+{
+    margin-top: 70px;
+    margin-right: 20px;
 }
 
 .text-white
@@ -31,7 +40,7 @@
 
     display: flex;
     justify-content: space-between;
-    outline: 1px dashed rgb(185, 80, 115)
+  
    
 }
 .item-1 {
@@ -70,5 +79,56 @@
     grid-row-gap: 15px;
     align-content: end;
 
+
+}
+.header {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, rgb(230, 40, 112), #a8a4a4);
+}
+.head
+{
+    margin: 0px 25px;
+    width: 150px;
+    height: 40px;
+    background-image: linear-gradient(to bottom, rgb(230, 40, 112), #a8a4a4);
+}
+.head_2
+{
+    margin: 0px 25px;
+    width: 300px;
+    height: 40px;
+    background-image: linear-gradient(to bottom, rgb(230, 40, 112), #a8a4a4);
+}
+.middle {
+    display: flex;
+    justify-content: center;
+    margin: 1px;
+    margin-left:50px;
+    
+}
+.middle_2
+{
+    margin-right:250px; 
+}
+.middle_3
+{
+    margin-top:100px;
+}
+.flex
+{
+
+height:40px;
+width: 100px;
+border-radius: 5%;
+}
+.block
+{
+    margin:15px;
+}
+.foot
+{
+    margin:10px 15px;
+    height:40px;
 
 }
