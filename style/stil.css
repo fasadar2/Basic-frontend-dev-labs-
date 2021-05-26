@@ -1,0 +1,10 @@
+.main_bg
+{
+    background-color:rgb(80, 79, 79);
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+
+}
