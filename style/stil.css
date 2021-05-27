@@ -14,7 +14,8 @@
 }
 .head_logo2
 {
-   margin:-5% 40%;
+   margin-top:1%;
+   margin-left:15%;
 }
 .item_1
 {
@@ -50,7 +51,7 @@
 .search
 {
     background-image: linear-gradient(to bottom, rgb(105, 73, 245), #2d0577);
-    margin:0% 12%;
+    margin:0% 18.7%;
     --tw-text-opacity: 1;
     color: rgba(255, 255, 255, var(--tw-text-opacity));
 }
@@ -293,4 +294,51 @@
 {
     margin-left:auto;
     margin-right:auto;
+}
+.foot
+{
+    margin-left:25%;
+}
+.blue_darker
+{
+    background-color: rgb(39, 72, 180);
+}
+.foot_splitter
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.foot_center
+{
+    margin-left:17%;
+}
+.foot_left
+{
+    margin-left:1%;
+}
+.foot_right
+{
+    margin-left:19%;
+}
+.blue_darker_txt_1
+{
+    background-color: rgb(39, 72, 180);
+    height: 25%;
+    width:60%;
+}
+.blue_darker_txt_2
+{
+    background-color: rgb(39, 72, 180);
+    height: 35%;
+    width:20%;
+}
+.chat
+{
+    margin-left:8%;
+}
+.dvigitel
+{
+    margin-left: 5%;
+    
 }
