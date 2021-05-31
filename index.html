@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Wedro cart</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- Nav -->
+<nav class="navbar navbar-light fixed-top" >
+    <div class="row">
+        <div class="col">
+          <button type="button" class="btn btn-info"
+          data-toggle="modal"
+          data-target="#cart">🛒 Cart 
+          (<span class="total-count"></span>)
+        </button>
+          <button class="clear-cart btn btn-danger">♻ Clear Cart</button>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row">
+      <!--card 1-->
+      <div class="col">
+        <div class="card" style="width: 20rem;">
+  <img class="card-img-top" src="./img/1.jpg">
+  <div class="card-block">
+    <h4 class="card-title">Be'lakor, the Dark Master</h4>
+    <p class="card-text">Price: 3600р</p>
+    <a href="#" data-name="Be'lakor, the Dark Master" data-price="3600" class="add-to-cart btn btn-primary">Add to cart</a>
+  </div>
+</div>
+      </div>
+
+      <!--card 2-->
+      <div class="col">
+        <div class="card" style="width: 20rem;">
+  <img class="card-img-top" src="./img/2.jpg">
+  <div class="card-block">
+    <h4 class="card-title">Cadian Command Squad</h4>
+    <p class="card-text">Price: 1300р</p>
+    <a href="#" data-name="Cadian Command Squad" data-price="1300" class="add-to-cart btn btn-primary">Add to cart</a>
+  </div>
+</div>
+      </div>
+
+      <!--card 3-->
+      <div class="col">
+        <div class="card" style="width: 20rem;">
+  <img class="card-img-top" src="./img/3.jpg">
+  <div class="card-block">
+    <h4 class="card-title">C'tan Shard of the Void </h4>
+    <p class="card-text">Price: 2300р</p>
+    <a href="#" data-name="C'tan Shard of the Void" data-price="2300" class="add-to-cart btn btn-primary">Add to cart</a>
+  </div>
+</div>
+      </div>
+
+      <!--card 4-->
+      <div class="col">
+        <div class="card" style="width: 20rem;">
+  <img class="card-img-top" src="./img/4.jpg">
+  <div class="card-block">
+    <h4 class="card-title">Blightlord Terminators</h4>
+    <p class="card-text">Price: 1400р</p>
+    <a href="#" data-name="Blightlord Terminators" data-price="1400" class="add-to-cart btn btn-primary">Add to cart</a>
+  </div>
+</div>
+      </div>
+
+      <!--card 5-->
+      <div class="col">
+        <div class="card" style="width: 20rem;">
+  <img class="card-img-top" src="./img/5.jpg">
+  <div class="card-block">
+    <h4 class="card-title">Vertus Praetors</h4>
+    <p class="card-text">Price: 1600р </p>
+    <a href="#" data-name="Vertus Praetors" data-price="1600" class="add-to-cart btn btn-primary">Add to cart</a>
+  </div>
+</div>
+      </div>
+
+      <!--card 6-->
+      <div class="col">
+        <div class="card" style="width: 20rem;">
+  <img class="card-img-top" src="./img/6.jpg">
+  <div class="card-block">
+    <h4 class="card-title">Abaddon the Despoiler</h4>
+    <p class="card-text">Price: 900р</p>
+    <a href="#" data-name="Abaddon the Despoiler" data-price="900" class="add-to-cart btn btn-primary">Add to cart</a>
+  </div>
+</div>
+
+      </div>
+    </div>
+</div>
+
+<div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <table class="show-cart table">
+          
+        </table>
+        <div>Total price: <span class="total-cart"></span>р</div>
+      </div>
+      <div class="modal-footer">
+        <button class="clear-cart btn btn-secondary">♻ Clear Cart</button>
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-success">Order now</button>
+      </div>
+    </div>
+  </div>
+</div>
+  <script  src="/bootstrap/script.js"></script>
+</body>
+</html>
